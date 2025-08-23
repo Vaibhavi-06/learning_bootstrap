@@ -9,7 +9,8 @@
       rel="stylesheet"
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <style>
               .nav-link:hover{
                 background-color: red;
@@ -72,37 +73,85 @@
       </nav>
     </header>
 
-    <h1> This is Contact Page</h1>
-
     <main>
       <section>
-          <div class="container">
-            <form>
-              <div class="row">
-                <div class="col md-6 border -border-dark p-4 mt-5">
-                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></div>
-
-                  <p><a href="tel:9561726088">9561726088</a></p>
-                  <p><a href="fulsundarvaibhavi1@gmail.com">fulsundarvaibhavi1@gmail.com</a></p>
-               
-                <div class="col md-6">
-
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 border -border-dark p-4 mt-5">
+              <h2>Contact Us for more info</h2>
+              <form>
+                <div class="row">
+                  <div class="col-md-6">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control mb-3">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control mb-3">
+                  </div>
+                  <div class="col-md-6">
+                    <label for class="form-label">Phone Number</label>
+                    <input type="number" class="form-control mb-3">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="city" class="form-label">Select City</label>
+                    <select class="form-select"
+                      aria-label="Default select example">
+                      <option selected>Select City</option>
+                      <option value="1">Mumbai</option>
+                      <option value="2">Pune</option>
+                      <option value="3">Delhi</option>
+                    </select>
+                  </div>
+                  <div class="col-md-3">
+                    <label for="email" class="form-label">Zip Code</label>
+                    <input type="number" class="form-control mb-3">
+                  </div>
+                  <div class="col-md-4">
+                    <label for="email" class="form-label">Select Gender</label>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio"
+                        name="radioDefault" id="radioDefault1">
+                      <label class="form-check-label" for="radioDefault1">
+                        Male
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio"
+                        name="radioDefault" id="radioDefault2" checked>
+                      <label class="form-check-label" for="radioDefault2">
+                        Female
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-md-5">
+                    <label for="email" class="form-label">Date of birth</label>
+                    <input type="date" class="form-control mb-3">
+                  </div>
+                  <div class="col-md-12">
+                    <label for="exampleFormControlTextarea1"
+                      class="form-label">Address</label>
+                    <textarea class="form-control" rows="3"></textarea>
+                  </div>
+                  <button type="button" class="btn btn-success">Submit</button>
                 </div>
-                 </div>
-                 </form>
-              </div>
-            </div>
-         
 
-        </section>
+              </form>
+            </div>
+            <div class="col-md-6 mt-5">
+              <h2>Reach Us</h2>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60495.023451478504!2d73.7263748486328!3d18.621814800000017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9db4ca1be5b%3A0x3b4577457bbc2ba5!2sSamsung%20Experience%20Store%20-%20Kunal%20Mobile%20Shopee%20-%20Arya%20Samaj%20Chowk!5e0!3m2!1sen!2sin!4v1755958268056!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="bg-dark text-light text-center py-4 mt-5 shadow-lg">
       <div class="container">
         <p class="mb-2">&copy; 2025 Forts of Maharashtra. All Rights
           Reserved.</p>
-          <i class="bi bi-facebook"></i>
+        <i class="bi bi-facebook"></i>
         <div>
           <a href="index.html"
             class="text-light text-decoration-none mx-2">Home</a> |
